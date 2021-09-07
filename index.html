@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <h1 class="visually-hidden">Digits</h1>
+    <div class="page__bg"></div>
+    <div class="nav-mob">
+      <input
+        id="toggle"
+        class="nav-mob__toggle"
+        type="checkbox"
+      >
+      <label for="toggle" class="nav-mob__btn">
+        <span class="nav-mob__lines"></span>
+      </label>
+      <nav class="nav nav-mob__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Homepages</a>
+          </li>
+          <li class="nav__item">
+            <a href="#products" class="nav__link">Products</a>
+          </li>
+          <li class="nav__item">
+            <a href="#company" class="nav__link">Company</a>
+          </li>
+          <li class="nav__item">
+            <a href="#pricing" class="nav__link">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a href="#blog" class="nav__link">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-mob__overlay"></div>
+    </div>
+    <header class="header">
+      <div class="header__left">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
+            <img
+              src="images/logo.svg"
+              alt="logo"
+              class="header__logo-img"
+            >
+          </a>
+        </div>
+        <div class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Homepages</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#company" class="nav__link">Company</a>
+            </li>
+            <li class="nav__item">
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__right">
+        <a href="tel:+00123456789" class="header__phone">+00&nbsp;123&nbsp;456&nbsp;789</a>
+        <div class="button header__button">
+          <a href="#contacts" class="button__text">Contact&nbsp;Us</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section id="home" class="home main__home">
+        <div class="container home__container">
+          <h2 class="home__heading">Good design meets <br> great user experience</h2>
+          <p class="home__text">For everyone, from beginners to experts</p>
+          <div class="home__buttons">
+            <div class="button home__button--1">
+              <a href="#pricing" class="button__text">Buy&nbsp;Digits</a>
+            </div>
+            <div class="button home__button--2">
+              <a href="#products" class="button__text">See&nbsp;the&nbsp;Features</a>
+            </div>
+          </div>
+          <div class="home__picture">
+            <img
+              src="images/p-thriangle-pink.svg"
+              alt="Main photo"
+              class="home__svg-1"
+            >
+            <img
+              src="images/p-square-blue.svg"
+              alt="Main photo"
+              class="home__svg-2"
+            >
+            <img
+              src="images/p-circle-pink.svg"
+              alt="Main photo"
+              class="home__svg-3"
+            >
+            <img
+              src="images/p-circle-yellow.svg"
+              alt="Main photo"
+              class="home__svg-4"
+            >
+            <img
+              src="images/p-browser.svg"
+              alt="Main photo"
+              class="home__img"
+            >
+            <img
+              src="images/p-ui.svg"
+              alt="Main photo"
+              class="home__svg-5"
+            >
+            <img
+              src="images/p-icon.svg"
+              alt="Main photo"
+              class="home__svg-6"
+            >
+            <img
+              src="images/p-person.svg"
+              alt="Main photo"
+              class="home__svg-7"
+            >
+          </div>
+          <p class="home__text-small">Trusted by forward-thinking software teams around the world</p>
+          <div class="home__companies">
+            <a href="https://www.netflix.com/" class="home__companies-link">
+              <img
+                src="images/logo-1.png"
+                alt="Netflix-logo"
+                class="home__companies-logos"
+              >
+            </a>
+            <a href="https://www.drawkit.io/" class="home__companies-link">
+              <img
+                src="images/logo-2.png"
+                alt="DrawKit-logo"
+                class="home__companies-logos"
+              >
+            </a>
+            <a href="https://www.figma.com/" class="home__companies-link">
+              <img
+                src="images/logo-3.png"
+                alt="Figma-logo"
+                class="home__companies-logos"
+              >
+            </a>
+            <a href="https://www.cinemax.com/" class="home__companies-link">
+              <img
+                src="images/logo-4.png"
+                alt="Cinemax-logo"
+                class="home__companies-logos"
+              >
+            </a>
+            <a href="https://stripe.com/" class="home__companies-link">
+              <img
+                src="images/logo-5.png"
+                alt="Stripe-logo"
+                class="home__companies-logos"
+              >
+            </a>
+            <a href="https://www.google.com.ua/" class="home__companies-link">
+              <img
+                src="images/logo-6.png"
+                alt="Google-logo"
+                class="home__companies-logos"
+              >
+            </a>
+            <a href="https://www.google.com/" class="home__companies-link">
+              <img
+                src="images/logo-7.png"
+                alt="Disney"
+                class="home__companies-logos"
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="products main__pruducts">
+        <div class="container products__container">
+          <h2 class="products__heading">Whatever work you do,<br> we're able to help</h2>
+          <div class="products__main">
+            <div class="products__left">
+              <img
+                src="images/p-thriangle-pink.svg"
+                alt="Main photo"
+                class="products__svg-1"
+              >
+              <img
+                src="images/p-square-blue.svg"
+                alt="Main photo"
+                class="products__svg-2"
+              >
+              <img
+                src="images/p-circle-pink.svg"
+                alt="Main photo"
+                class="products__svg-3"
+              >
+              <img
+                src="images/p-rectangle1.svg"
+                alt="Main photo"
+                class="products__svg-4"
+              >
+              <img
+                src="images/p-photo1.png"
+                alt="Main photo"
+                class="products__svg-5"
+              >
+              <img
+                src="images/p-rectangle2.svg"
+                alt="Main photo"
+                class="products__svg-6"
+              >
+              <img
+                src="images/p-photo2.png"
+                alt="Main photo"
+                class="products__svg-7"
+              >
+              <img
+                src="images/p-rectangle3.svg"
+                alt="Main photo"
+                class="products__svg-8"
+              >
+              <img
+                src="images/p-photo3.png"
+                alt="Main photo"
+                class="products__svg-9"
+              >
+            </div>
+            <div class="products__right">
+              <div class="products__part">
+                <img
+                  src="images/Icon-1.svg"
+                  alt="icon"
+                  class="products__icon"
+                >
+                <div class="products__article">
+                  <h3 class="products__article-heading">Design and Assets</h3>
+                  <p class="products__text">Make your brand stand out with pixel-perfect design crafted to perfection.</p>
+                </div>
+              </div>
+              <div class="products__part">
+                <img
+                  src="images/Icon-2.svg"
+                  alt="icon"
+                  class="products__icon"
+                >
+                <div class="products__article">
+                  <h3 class="products__article-heading">Easy Content</h3>
+                  <p class="products__text">Import your demos or build pages visually. Bonus: All images and illustrations included!</p>
+                </div>
+              </div>
+              <div class="products__part">
+                <img
+                  src="images/Icon-3.svg"
+                  alt="icon"
+                  class="products__icon"
+                >
+                <div class="products__article">
+                  <h3 class="products__article-heading">Fast and Reliable</h3>
+                  <p class="products__text">No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="company" class="company main__company">
+        <div class="container company__container">
+          <h2 class="company__heading">Simplicity meets innovative design</h2>
+          <p class="company__text">It's really easy to start using Digits. <br>Install the theme, choose a demo and <br> start designing the future of your business!</p>
+          <div class="button company__button">
+            <a href="#pricing" class="button__text">Buy&nbsp;Digits</a>
+          </div>
+          <img
+            src="images/Graphic-3.png"
+            alt="Design photos"
+            class="company__picture"
+          >
+        </div>
+      </section>
+
+      <section id="blog" class="blog main__blog">
+        <div class="container blog__container">
+          <h2 class="blog__heading">What others are saying</h2>
+          <div class="blog__respond">
+            <article class="blog__article">
+              <p class="blog__text">Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!</p>
+              <div class="blog__person">
+                <div class="blog__photo">
+                  <img
+                    src="images/foto-1.png"
+                    alt="person photo"
+                    class="blog__img"
+                  >
+                </div>
+                <h3 class="blog__name">Happy&nbsp;User</h3>
+                <a href="#" class="blog__email">tempy.club</a>
+              </div>
+            </article>
+            <article class="blog__article">
+              <p class="blog__text">Really easy to use and customize. Easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
+              <div class="blog__person">
+                <div class="blog__photo">
+                  <img
+                    src="images/foto-2.png"
+                    alt="person photo"
+                    class="blog__img"
+                  >
+                </div>
+                <h3 class="blog__name">Happy&nbsp;User</h3>
+                <a href="#" class="blog__email">tempy.club</a>
+              </div>
+            </article>
+            <article class="blog__article">
+              <p class="blog__text">Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from a relatively new WordPress user.</p>
+              <div class="blog__person">
+                <div class="blog__photo">
+                  <img
+                    src="images/foto-3.png"
+                    alt="person photo"
+                    class="blog__img"
+                  >
+                </div>
+                <h3 class="blog__name">Happy&nbsp;User</h3>
+                <a href="#" class="blog__email">tempy.club</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing main__pricing">
+        <div class="container pricing__container">
+          <div class="pricing__left">
+            <h2 class="pricing__heading">Ready to launch <br> your next website?</h2>
+          </div>
+          <div class="pricing__right">
+            <div class="button pricing__button">
+              <a href="#" class="button__text">Get&nbsp;in&nbsp;touch&nbsp;now</a>
+            </div>
+            <div class="pricing__text-small">Or, take a peek inside our design studio</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+      <div class="footer__top">
+        <div class="footer__top-left">
+          <article class="footer__general">
+            <img
+              src="images/logo.svg"
+              alt="logo"
+              class="footer__logo"
+            >
+            <p class="footer__text">Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
+          </article>
+          <div class="footer__contacts">
+            <a href="tel:+00123456789" class="footer__phone">+00&nbsp;123&nbsp;456&nbsp;789</a>
+            <div class="button footer__button">
+              <a href="#contacts" class="button__text">Contact&nbsp;Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__top-right">
+          <acricle class="footer__pages">
+            <h3 class="footer__heading">Pages</h3>
+            <nav class="nav footer__nav--1">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#products" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#company" class="nav__link">News</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#pricing" class="nav__link">Pricing</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contacts" class="nav__link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </acricle>
+          <article class="footer__demos">
+            <h3 class="footer__heading">Demos</h3>
+            <nav class="nav footer__nav--2">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Classic</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Boxy</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Gradient</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Minimal</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Night</a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+          <article class="footer__resources">
+            <h3 class="footer__heading">Resources</h3>
+            <div class="footer__icons">
+              <a href="https://www.facebook.com/" class="footer__icon-link">
+                <img
+                  src="images/ic-1.svg"
+                  alt="facebook"
+                  class="footer__icon"
+                >
+              </a>
+              <a href="https://www.instagram.com/" class="footer__icon-link">
+                <img
+                  src="images/ic-2.svg"
+                  alt="instagram"
+                  class="footer__icon"
+                >
+              </a>
+              <a href="https://twitter.com/" class="footer__icon-link">
+                <img
+                  src="images/ic-3.svg"
+                  alt="twitter"
+                  class="footer__icon"
+                >
+              </a>
+              <a href="https://dribbble.com/" class="footer__icon-link">
+                <img
+                  src="images/ic-4.svg"
+                  alt="dribbble"
+                  class="footer__icon"
+                >
+              </a>
+              <a href="https://tinder.com/" class="footer__icon-link">
+                <img
+                  src="images/ic-5.svg"
+                  alt="tinder"
+                  class="footer__icon"
+                >
+              </a>
+            </div>
+            <a href="#" class="footer__link">Dawnload now</a>
+            <a href="#" class="footer__link">Documentation</a>
+          </article>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">Copyright © 2020 tempy.club</p>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link">Privacy Policy</a>
+          <a href="#" class="footer__bottom-link">Terms of Use</a>
+          <a href="#" class="footer__bottom-link">GDPR</a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
